@@ -46,7 +46,7 @@ namespace gr {
        * class. mthpower::m_th_power_v1_cc::make is the public interface for
        * creating new instances.
        */
-      static sptr make(unsigned int N=4, unsigned int M=4, float phase=0);
+      static sptr make(unsigned int N, unsigned int M, float phase);
     };
 
   } // namespace mthpower
